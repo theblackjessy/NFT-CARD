@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Outfit;
+    background-color:  hsl(217, 54%, 11%);
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .container{
+        background-color:  hsl(216, 50%, 16%);
+        height: 670px;
+        width: 400px;
+        padding:20px;
+        border-radius: 15px;
+        box-shadow: 10px 10px 50px  hsl(218, 33%, 9%);
+    }
+
+    .main{
+        padding:0px 5px;
+        width:350px;  
+        justify-content: space-evenly;
+    }
+
+    .image img{
+        width: 350px;
+        border-radius: 10px;
+    }
+
+    .story h4{
+        font-size: 23px;
+        font-weight: 600;
+        color: hsl(0, 0%, 100%);
+        letter-spacing: 2px ;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .story p{
+        font-size: 20px;
+        font-weight: 400;
+        color: hsl(215, 51%, 70%);
+    }
+    .green{
+        display: flex;
+        
+    }
+
+    .green img{
+        padding-right: 5px;
+    }
+    .green p{
+        color: hsl(178, 100%, 50%);
+    }
+
+    .time{
+        display: flex;
+    }
+
+    .time img{
+        padding-right: 10px;
+    
+    }
+
+    .sub{
+        display:flex;
+        justify-content: space-between;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .line{
+        background-color: hsl(215, 32%, 27%);
+        height:2px;
+        width:350px;
+    }
+
+    .foot{
+        padding-top:20px;
+        padding-bottom:20px;
+        display:flex;
+    }
+
+    .foot img{
+        width:50px;
+        padding-right: 10px;
+}
+    .foot p{
+        font-size: 20px;
+        font-weight: 300;
+        color: hsl(215, 51%, 70%);
+        text-align: center;
+        padding: 10px 10px;
+    }
+
+    .foot span{
+        font-weight: 500;
+        color: hsl(0, 0%, 100%);
+    }
